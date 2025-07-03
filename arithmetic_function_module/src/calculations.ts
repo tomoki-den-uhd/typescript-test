@@ -1,5 +1,3 @@
-
-
 export const add = (x: number, y:number) => {
     return x + y;
 };
@@ -16,10 +14,12 @@ export const divide = (x: number, y:number) => {
     if (y != 0) {
         return x / y;
     } else {
-        return console.error('エラー');
+        return console.error('第二引数に0が渡されれています');
     }
 }
-   
+
+
+
 
 
 
