@@ -13,5 +13,6 @@ module.exports = {
     "/node_modules/",
     "/dist/",
     "/arithmetic_function_module/",
+    "/library_management_module/",
   ],
 };
