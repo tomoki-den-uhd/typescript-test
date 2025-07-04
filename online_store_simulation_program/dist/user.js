@@ -7,5 +7,7 @@ export class Users {
         this.userAddress = userAddress;
         this.userName = userName;
     }
-    displayInfo() { }
+    displayInfo() {
+        return `ユーザID:${this.userId}\nユーザアドレス:${this.userAddress}\nユーザネーム:${this.userName}`;
+    }
 }

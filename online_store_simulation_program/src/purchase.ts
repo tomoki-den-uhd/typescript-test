@@ -1,7 +1,13 @@
-import { Products } from "./product";
-import { Users } from "./user";
-
-
-let processPurchase (userName, productName) => {
-
-}
+import { Products } from "./product.js";
+import { Users } from "./user.js";
+import { product } from "./main.js";
+import { user } from "./main.js";
+//関数は、ユーザーと商品のIDを引数として受け取る
+export let processPurchase = (userId: Users, productId: Products): string => {
+  if ((product.inventory = 0)) {
+    return `在庫切れです`;
+  } else {
+    product.decreaseStock();
+    return `${user.userId}さんは商品${product.productId}を購入しました`;
+  }
+};

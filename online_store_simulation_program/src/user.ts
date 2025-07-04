@@ -9,5 +9,7 @@ export class Users {
     this.userName = userName;
   }
 
-  displayInfo() {}
+  displayInfo() {
+    return `ユーザID:${this.userId}\nユーザアドレス:${this.userAddress}\nユーザネーム:${this.userName}`;
+  }
 }

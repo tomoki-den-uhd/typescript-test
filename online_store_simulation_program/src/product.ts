@@ -16,7 +16,11 @@ export class Products {
     this.inventory = inventory;
   }
 
-  displayInfo() {}
+  displayInfo() {
+    return `商品ID:${this.productId}\n消費名:${this.productName}\n商品価格:${this.price}商品在庫${this.inventory}`;
+  }
 
-  decreaseStock() {}
+  decreaseStock() {
+    return (this.inventory -= this.inventory);
+  }
 }
