@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "lite-server"
+    "start": "lite-server",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",

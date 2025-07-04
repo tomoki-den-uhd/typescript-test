@@ -1,4 +1,4 @@
-import { add } from './calculations';
+import { add } from "./calculations";
 import { subtraction } from "./calculations";
 import { multiply } from "./calculations";
 import { divide } from "./calculations";
