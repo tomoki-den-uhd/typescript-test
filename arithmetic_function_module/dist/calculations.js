@@ -12,6 +12,6 @@ export const divide = (x, y) => {
         return x / y;
     }
     else {
-        return console.error('第二引数に0が渡されれています');
+        return "第二引数に0が渡されれています";
     }
 };

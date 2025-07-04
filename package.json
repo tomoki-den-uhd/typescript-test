@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "lite-server"
   },
   "repository": {
@@ -14,9 +14,11 @@
   "license": "UNLICENSED",
   "description": "",
   "devDependencies": {
-    "lite-server": "^2.6.1"
-  },
-  "dependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.4",
+    "lite-server": "^2.6.1",
+    "prettier": "^3.6.2",
+    "ts-jest": "^29.4.0",
     "typescript": "^5.8.3"
   }
 }
