@@ -8,16 +8,16 @@ export class Books {
         this.inventory = inventory;
     }
     displayInfo() {
-        console.log(`この本のタイトルは${this.title}で著者は${this.author}です`);
-        console.log(`残りの在庫数:${this.inventory}`);
+        console.log("title", this.title);
+        return `この本のタイトルは${this.title}で著者は${this.author}です \n 残りの在庫数は${this.inventory}`;
     }
     borrowBook() {
-        if (this.inventory >= 1) {
-            this.inventory - +this.inventory;
-            return `${this.title}を貸出しました`;
+        if (this.inventory === 0) {
+            return `在庫切れ`;
         }
         else {
-            return "在庫切れ";
+            return `${this.title}を貸出しました`;
         }
     }
 }
+;

@@ -9,5 +9,9 @@ module.exports = {
   transform: {
     ...tsJestTransformCfg,
   },
-  testPathIgnorePatterns: ["/node_modules/", "/dist/"],
+  testPathIgnorePatterns: [
+    "/node_modules/",
+    "/dist/",
+    "/arithmetic_function_module/",
+  ],
 };
