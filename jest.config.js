@@ -7,8 +7,9 @@ module.exports = {
   preset: "ts-jest",
   testEnvironment: "node",
   transform: {
-    ...tsJestTransformCfg,
+    "^.+\\.ts$": "ts-jest",
   },
+
   testPathIgnorePatterns: [
     "/node_modules/",
     "/dist/",

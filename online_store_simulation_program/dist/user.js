@@ -8,6 +8,7 @@ export class Users {
         this.userName = userName;
     }
     displayInfo() {
-        return `ユーザID:${this.userId}\nユーザアドレス:${this.userAddress}\nユーザネーム:${this.userName}`;
+        return console.log(`ユーザID:${this.userId}\nユーザアドレス:${this.userAddress}\nユーザネーム:${this.userName}`);
+        // return `ユーザID:${this.userId}\nユーザアドレス:${this.userAddress}\nユーザネーム:${this.userName}`;
     }
 }
