@@ -15,4 +15,3 @@ test("タイトルが本5で著者が山田で在庫が0の時", () => {
   );
   expect(book.borrowBook()).toBe(`在庫切れ`);
 });
-
