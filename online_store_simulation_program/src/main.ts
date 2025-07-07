@@ -8,5 +8,6 @@ export const user = new Users(1, "test@test.com", "田中");
 product.displayInfo();
 user.displayInfo();
 
-processPurchase(user, product); 
+processPurchase(user, product);
+
 
