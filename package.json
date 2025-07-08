@@ -6,6 +6,7 @@
     "test": "jest",
     "start": "lite-server",
     "format": "prettier --write ."
+    
   },
   "repository": {
     "type": "git",

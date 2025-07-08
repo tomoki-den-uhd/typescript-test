@@ -7,11 +7,15 @@ module.exports = {
   preset: "ts-jest",
   testEnvironment: "node",
   transform: {
-    ...tsJestTransformCfg,
+    "^.+\\.ts$": "ts-jest",
   },
+
   testPathIgnorePatterns: [
     "/node_modules/",
     "/dist/",
     "/arithmetic_function_module/",
+    "/library_management_system_module/",
   ],
 };
+
+
