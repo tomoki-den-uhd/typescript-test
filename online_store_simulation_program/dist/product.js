@@ -1,4 +1,4 @@
-export class Products {
+export class Product {
     productId;
     productName;
     price;
@@ -10,13 +10,9 @@ export class Products {
         this.inventory = inventory;
     }
     displayInfo() {
-        // return console.log(
-        //   `商品ID:${this.productId}\n消費名:${this.productName}\n商品価格:${this.price}円\n商品在庫:${this.inventory}`
-        // );
-        return `商品ID:${this.productId}\n消費名:${this.productName}\n商品価格:${this.price}円\n商品在庫:${this.inventory}`;
+        return console.log(`商品ID:${this.productId}\n消費名:${this.productName}\n商品価格:${this.price}円\n商品在庫:${this.inventory}`);
     }
     decreaseStock() {
-        // return console.log(this.inventory - 1);
         return this.inventory - 1;
     }
 }
