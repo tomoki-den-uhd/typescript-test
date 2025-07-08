@@ -15,6 +15,7 @@ module.exports = {
     "/dist/",
     "/arithmetic_function_module/",
     "/library_management_system_module/",
+    "online_store_simulation_program",
   ],
 };
 
